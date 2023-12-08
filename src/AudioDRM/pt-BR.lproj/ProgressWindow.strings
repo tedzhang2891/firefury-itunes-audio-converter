@@ -1,0 +1,30 @@
+
+/* Class = "NSWindow"; title = "Convert Progress"; ObjectID = "3"; */
+"3.title" = "Progresso da conversão";
+
+/* Class = "NSTextFieldCell"; placeholderString = "(index / total)"; ObjectID = "6"; */
+"6.placeholderString" = "(índice / total)";
+
+/* Class = "NSTextFieldCell"; title = "remind time"; ObjectID = "8"; */
+"8.title" = "lembrar tempo";
+
+/* Class = "NSTextFieldCell"; placeholderString = "convert track path"; ObjectID = "10"; */
+"10.placeholderString" = "converter trajeto da trilha";
+
+/* Class = "NSButtonCell"; title = "Abort"; ObjectID = "14"; */
+"14.title" = "Abortar";
+
+/* Class = "NSMenuItem"; title = "Open Output Folder"; ObjectID = "19"; */
+"19.title" = "Abrir Pasta de Saída";
+
+/* Class = "NSMenuItem"; title = "Put Mac to Sleep"; ObjectID = "20"; */
+"20.title" = "Colocar Mac para dormir";
+
+/* Class = "NSMenuItem"; title = "Do Nothing"; ObjectID = "21"; */
+"21.title" = "Nenhuma ação";
+
+/* Class = "NSTextFieldCell"; title = "Progress:"; ObjectID = "24"; */
+"24.title" = "Progresso:";
+
+/* Class = "NSTextFieldCell"; title = "Complete:"; ObjectID = "28"; */
+"28.title" = "Completo:";

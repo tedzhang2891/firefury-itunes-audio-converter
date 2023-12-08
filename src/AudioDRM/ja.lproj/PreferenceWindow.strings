@@ -1,0 +1,75 @@
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "3"; */
+"3.title" = "設定";
+
+/* Class = "NSBox"; title = "Output Settings"; ObjectID = "5"; */
+"5.title" = "出力設定";
+
+/* Class = "NSTextFieldCell"; title = "Output Folder :"; ObjectID = "7"; */
+"7.title" = "出力フォルダ :";
+
+/* Class = "NSButtonCell"; title = "Auto rename output file when exist"; ObjectID = "11"; */
+"11.title" = "ファイルが存在するときは自動的にリネーム";
+
+/* Class = "NSButtonCell"; title = "Keep output folder organized"; ObjectID = "13"; */
+"13.title" = "出力フォルダを整理しておく";
+
+/* Class = "NSTextFieldCell"; title = "Places files into album and artist folders, and names the files based on the track number, and the song title."; ObjectID = "15"; */
+"15.title" = "ファイルをアルバムおよびアーティストフォルダに配置し、トラック番号と曲名に基づいてファイルに名前を付けます。";
+
+/* Class = "NSButtonCell"; title = "..."; ObjectID = "17"; */
+"17.title" = "...";
+
+/* Class = "NSButtonCell"; title = "Keep chapters (need enable Accessibility in System Preferences)"; ObjectID = "19"; */
+"19.title" = "チャプターを保持する（システム環境設定でアクセシビリティを有効にする必要がある）";
+
+/* Class = "NSBox"; title = "Convert Settings"; ObjectID = "20"; */
+"20.title" = "変換設定";
+
+/* Class = "NSTextFieldCell"; title = "Output Format :"; ObjectID = "22"; */
+"22.title" = "出力形式 :";
+
+/* Class = "NSMenuItem"; title = "High (320 kbps)"; ObjectID = "26"; */
+"26.title" = "高品質 (320 kbps)";
+
+/* Class = "NSMenuItem"; title = "Medium (256 kbps)"; ObjectID = "27"; */
+"27.title" = "中品質 (256 kbps)";
+
+/* Class = "NSMenuItem"; title = "Low (128 kbps)"; ObjectID = "28"; */
+"28.title" = "低品質 (128 kbps)";
+
+/* Class = "NSMenuItem"; title = "Audiobook (64 kbps)"; ObjectID = "29"; */
+"29.title" = "オーディオブック (64 kbps)";
+
+/* Class = "NSTextFieldCell"; title = "Output Quality :"; ObjectID = "31"; */
+"31.title" = "出力品質 :";
+
+/* Class = "NSTextFieldCell"; title = "Convert Speed :"; ObjectID = "33"; */
+"33.title" = "変換スピード :";
+
+/* Class = "NSTextFieldCell"; title = "* If the quality of output was un-satisfied, please slow down the converting speed "; ObjectID = "35"; */
+"35.title" = "* 出力品質に満足していない場合、スピードを下げてみてください。";
+
+/* Class = "NSMenuItem"; title = "20x (Recommended)"; ObjectID = "39"; */
+"39.title" = "20x (おススメ)";
+
+/* Class = "NSMenuItem"; title = "10x"; ObjectID = "40"; */
+"40.title" = "10x";
+
+/* Class = "NSMenuItem"; title = "5x"; ObjectID = "41"; */
+"41.title" = "5x";
+
+/* Class = "NSMenuItem"; title = "1x"; ObjectID = "42"; */
+"42.title" = "1x";
+
+/* Class = "NSSegmentedCell"; 44.ibShadowedLabels[0] = "MP3"; ObjectID = "44"; */
+"44.ibShadowedLabels[0]" = "MP3";
+
+/* Class = "NSSegmentedCell"; 44.ibShadowedLabels[1] = "AAC"; ObjectID = "44"; */
+"44.ibShadowedLabels[1]" = "AAC";
+
+/* Class = "NSSegmentedCell"; 44.ibShadowedLabels[2] = "FLAC"; ObjectID = "44"; */
+"44.ibShadowedLabels[2]" = "FLAC";
+
+/* Class = "NSSegmentedCell"; 44.ibShadowedLabels[3] = "WAV"; ObjectID = "44"; */
+"44.ibShadowedLabels[3]" = "WAV";

@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C08D3B202AEBCD004FE770 /* iTunesCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D3A202AEBCD004FE770 /* iTunesCommunication.m */; };
+		10C08D49202AF0DF004FE770 /* FFMPEGAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D48202AF0DF004FE770 /* FFMPEGAudioEncoder.m */; };
+		10C08D4B202AF153004FE770 /* ITunesPlayerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D4A202AF153004FE770 /* ITunesPlayerInterface.m */; };
+		10C08D4D202AF165004FE770 /* PlayerConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D4C202AF165004FE770 /* PlayerConverter.m */; };
+		10C08D4F202AF174004FE770 /* PlayerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D4E202AF174004FE770 /* PlayerInterface.m */; };
+		10C08D51202AF181004FE770 /* ProtectorConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D50202AF181004FE770 /* ProtectorConverter.m */; };
+		10C08D53202AF196004FE770 /* RecorderConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C08D52202AF196004FE770 /* RecorderConverter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C08D2D202AEAF2004FE770 /* ConvertCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConvertCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C08D30202AEAF2004FE770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C08D39202AEBCD004FE770 /* iTunesCommunication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesCommunication.h; sourceTree = "<group>"; };
+		10C08D3A202AEBCD004FE770 /* iTunesCommunication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesCommunication.m; sourceTree = "<group>"; };
+		10C08D3C202AEC51004FE770 /* FFMPEGAudioEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMPEGAudioEncoder.h; sourceTree = "<group>"; };
+		10C08D3E202AEC52004FE770 /* ProtectorConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectorConverter.h; sourceTree = "<group>"; };
+		10C08D3F202AEC52004FE770 /* ITunesPlayerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesPlayerInterface.h; sourceTree = "<group>"; };
+		10C08D40202AEC52004FE770 /* PlayerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerInterface.h; sourceTree = "<group>"; };
+		10C08D41202AEC52004FE770 /* ConvertCommunicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertCommunicationProtocol.h; sourceTree = "<group>"; };
+		10C08D42202AEC52004FE770 /* AudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConverter.h; sourceTree = "<group>"; };
+		10C08D43202AEC52004FE770 /* AudioConverterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConverterDelegate.h; sourceTree = "<group>"; };
+		10C08D44202AEC52004FE770 /* CDStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStructures.h; sourceTree = "<group>"; };
+		10C08D45202AEC52004FE770 /* PlayerConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerConverter.h; sourceTree = "<group>"; };
+		10C08D46202AEC52004FE770 /* RecorderConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderConverter.h; sourceTree = "<group>"; };
+		10C08D47202AEC52004FE770 /* RecorderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecorderDelegate.h; sourceTree = "<group>"; };
+		10C08D48202AF0DF004FE770 /* FFMPEGAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFMPEGAudioEncoder.m; sourceTree = "<group>"; };
+		10C08D4A202AF153004FE770 /* ITunesPlayerInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITunesPlayerInterface.m; sourceTree = "<group>"; };
+		10C08D4C202AF165004FE770 /* PlayerConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerConverter.m; sourceTree = "<group>"; };
+		10C08D4E202AF174004FE770 /* PlayerInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerInterface.m; sourceTree = "<group>"; };
+		10C08D50202AF181004FE770 /* ProtectorConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtectorConverter.m; sourceTree = "<group>"; };
+		10C08D52202AF196004FE770 /* RecorderConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecorderConverter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C08D2A202AEAF2004FE770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C08D24202AEAF2004FE770 = {
+			isa = PBXGroup;
+			children = (
+				10C08D2F202AEAF2004FE770 /* ConvertCore */,
+				10C08D2E202AEAF2004FE770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C08D2E202AEAF2004FE770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C08D2D202AEAF2004FE770 /* ConvertCore.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C08D2F202AEAF2004FE770 /* ConvertCore */ = {
+			isa = PBXGroup;
+			children = (
+				10C08D30202AEAF2004FE770 /* Info.plist */,
+				10C08D42202AEC52004FE770 /* AudioConverter.h */,
+				10C08D43202AEC52004FE770 /* AudioConverterDelegate.h */,
+				10C08D47202AEC52004FE770 /* RecorderDelegate.h */,
+				10C08D41202AEC52004FE770 /* ConvertCommunicationProtocol.h */,
+				10C08D44202AEC52004FE770 /* CDStructures.h */,
+				10C08D3C202AEC51004FE770 /* FFMPEGAudioEncoder.h */,
+				10C08D48202AF0DF004FE770 /* FFMPEGAudioEncoder.m */,
+				10C08D3F202AEC52004FE770 /* ITunesPlayerInterface.h */,
+				10C08D4A202AF153004FE770 /* ITunesPlayerInterface.m */,
+				10C08D45202AEC52004FE770 /* PlayerConverter.h */,
+				10C08D4C202AF165004FE770 /* PlayerConverter.m */,
+				10C08D40202AEC52004FE770 /* PlayerInterface.h */,
+				10C08D4E202AF174004FE770 /* PlayerInterface.m */,
+				10C08D3E202AEC52004FE770 /* ProtectorConverter.h */,
+				10C08D50202AF181004FE770 /* ProtectorConverter.m */,
+				10C08D46202AEC52004FE770 /* RecorderConverter.h */,
+				10C08D52202AF196004FE770 /* RecorderConverter.m */,
+				10C08D39202AEBCD004FE770 /* iTunesCommunication.h */,
+				10C08D3A202AEBCD004FE770 /* iTunesCommunication.m */,
+			);
+			path = ConvertCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C08D2C202AEAF2004FE770 /* ConvertCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C08D33202AEAF2004FE770 /* Build configuration list for PBXNativeTarget "ConvertCore" */;
+			buildPhases = (
+				10C08D29202AEAF2004FE770 /* Sources */,
+				10C08D2A202AEAF2004FE770 /* Frameworks */,
+				10C08D2B202AEAF2004FE770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConvertCore;
+			productName = ConvertCore;
+			productReference = 10C08D2D202AEAF2004FE770 /* ConvertCore.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C08D25202AEAF2004FE770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ted zhang";
+				TargetAttributes = {
+					10C08D2C202AEAF2004FE770 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10C08D28202AEAF2004FE770 /* Build configuration list for PBXProject "ConvertCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10C08D24202AEAF2004FE770;
+			productRefGroup = 10C08D2E202AEAF2004FE770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C08D2C202AEAF2004FE770 /* ConvertCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C08D2B202AEAF2004FE770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C08D29202AEAF2004FE770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C08D49202AF0DF004FE770 /* FFMPEGAudioEncoder.m in Sources */,
+				10C08D51202AF181004FE770 /* ProtectorConverter.m in Sources */,
+				10C08D4D202AF165004FE770 /* PlayerConverter.m in Sources */,
+				10C08D4B202AF153004FE770 /* ITunesPlayerInterface.m in Sources */,
+				10C08D3B202AEBCD004FE770 /* iTunesCommunication.m in Sources */,
+				10C08D4F202AF174004FE770 /* PlayerInterface.m in Sources */,
+				10C08D53202AF196004FE770 /* RecorderConverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10C08D31202AEAF2004FE770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10C08D32202AEAF2004FE770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10C08D34202AEAF2004FE770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				INFOPLIST_FILE = ConvertCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firefury.ConvertCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		10C08D35202AEAF2004FE770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6RUSH3G7FN;
+				INFOPLIST_FILE = ConvertCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = com.firefury.ConvertCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C08D28202AEAF2004FE770 /* Build configuration list for PBXProject "ConvertCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C08D31202AEAF2004FE770 /* Debug */,
+				10C08D32202AEAF2004FE770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C08D33202AEAF2004FE770 /* Build configuration list for PBXNativeTarget "ConvertCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C08D34202AEAF2004FE770 /* Debug */,
+				10C08D35202AEAF2004FE770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C08D25202AEAF2004FE770 /* Project object */;
+}

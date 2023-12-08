@@ -1,0 +1,72 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Album"; ObjectID = "2gv-n4-kog"; */
+"2gv-n4-kog.headerCell.title" = "專輯";
+
+/* Class = "NSButtonCell"; title = "Refresh"; ObjectID = "4SE-k7-abv"; */
+"4SE-k7-abv.title" = "刷新";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "57u-BP-MnD"; */
+"57u-BP-MnD.title" = "表視圖儲存格";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "DoC-Ov-dCf"; */
+"DoC-Ov-dCf.title" = "取消";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "視窗";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title"; ObjectID = "Gka-we-1hl"; */
+"Gka-we-1hl.headerCell.title" = "標題";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Hq8-kE-u2o"; */
+"Hq8-kE-u2o.title" = "表視圖儲存格";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "KUq-DN-oWp"; */
+"KUq-DN-oWp.title" = "表視圖儲存格";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Kth-eD-kFT"; */
+"Kth-eD-kFT.title" = "表視圖儲存格";
+
+/* Class = "NSBox"; title = "Details"; ObjectID = "LAw-06-aXC"; */
+"LAw-06-aXC.title" = "細節";
+
+/* Class = "NSBox"; title = "Library&Playlist"; ObjectID = "R27-Bu-1Gg"; */
+"R27-Bu-1Gg.title" = "Library&Playlist";
+
+/* Class = "NSBox"; title = "Search&Hide"; ObjectID = "RUx-iK-18e"; */
+"RUx-iK-18e.title" = "搜索&隱藏";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Wgd-q9-laZ"; */
+"Wgd-q9-laZ.title" = "文本儲存格";
+
+/* Class = "NSButtonCell"; title = "Hide Converted"; ObjectID = "Xtl-g4-5D7"; */
+"Xtl-g4-5D7.title" = "隱藏已轉換";
+
+/* Class = "NSButtonCell"; title = "Ok"; ObjectID = "Ztf-I9-AYu"; */
+"Ztf-I9-AYu.title" = "確定";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "aaZ-bU-scW"; */
+"aaZ-bU-scW.title" = "表視圖儲存格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "cLI-Pd-dcP"; */
+"cLI-Pd-dcP.title" = "文本儲存格";
+
+/* Class = "NSTableColumn"; headerCell.title = "Artist"; ObjectID = "ctd-Ci-cfn"; */
+"ctd-Ci-cfn.headerCell.title" = "歌手";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "iwD-LI-aqw"; */
+"iwD-LI-aqw.title" = "文本儲存格";
+
+/* Class = "NSTextFieldCell"; title = "Text"; ObjectID = "lLk-58-Am1"; */
+"lLk-58-Am1.title" = "文本";
+
+/* Class = "NSTableColumn"; headerCell.title = "Duration"; ObjectID = "oCg-X2-U4R"; */
+"oCg-X2-U4R.headerCell.title" = "持續時間";
+
+/* Class = "NSTableColumn"; headerCell.title = "Playlist"; ObjectID = "oQP-0n-xae"; */
+"oQP-0n-xae.headerCell.title" = "播放清單";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "pTF-fg-sB0"; */
+"pTF-fg-sB0.title" = "文本儲存格";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "zQe-oY-X7L"; */
+"zQe-oY-X7L.title" = "表視圖儲存格";

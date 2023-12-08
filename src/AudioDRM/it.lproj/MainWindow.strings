@@ -1,0 +1,144 @@
+
+/* Class = "NSButtonCell"; title = "CONVERT"; ObjectID = "2E6-ln-IxT"; */
+"2E6-ln-IxT.title" = "CONVERTIRE";
+
+/* Class = "NSButtonCell"; title = "Click Here to Add Audio"; ObjectID = "34a-nG-W6P"; */
+"34a-nG-W6P.title" = "Clicca qui per aggiungere l'Audio";
+
+/* Class = "NSTableColumn"; headerCell.title = "Genre"; ObjectID = "3uw-xq-BKk"; */
+"3uw-xq-BKk.headerCell.title" = "Genere";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6tz-xz-fia"; */
+"6tz-xz-fia.title" = "Rifare";
+
+/* Class = "NSTableColumn"; headerCell.title = "Artist"; ObjectID = "86P-ot-NR2"; */
+"86P-ot-NR2.headerCell.title" = "Artista";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title"; ObjectID = "89d-mF-scI"; */
+"89d-mF-scI.headerCell.title" = "Titolo";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "9Md-rQ-b2S"; */
+"9Md-rQ-b2S.title" = "Seleziona tutto";
+
+/* Class = "NSMenuItem"; title = "Debug Log"; ObjectID = "BgP-Zh-mDM"; */
+"BgP-Zh-mDM.title" = "Apri file di registro";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "CwY-3h-oWz"; */
+"CwY-3h-oWz.title" = "Visualizza tutti i";
+
+/* Class = "NSMenuItem"; title = "FireFury DRM Removal"; ObjectID = "D7i-Rt-OzM"; */
+"D7i-Rt-OzM.title" = "FireFury DRM Removal";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "GIy-43-7U0"; */
+"GIy-43-7U0.title" = "Ridurre al minimo";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "GpJ-fN-wyS"; */
+"GpJ-fN-wyS.title" = "Finestra";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "H6r-En-6F8"; */
+"H6r-En-6F8.title" = "Disfare";
+
+/* Class = "NSTableColumn"; headerCell.title = " "; ObjectID = "Iz1-N7-DBv"; */
+"Iz1-N7-DBv.headerCell.title" = " ";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "O5G-RT-j9g"; */
+"O5G-RT-j9g.title" = "Porta tutto in primo piano";
+
+/* Class = "NSTableColumn"; headerCell.title = "Album"; ObjectID = "OOC-UA-PXP"; */
+"OOC-UA-PXP.headerCell.title" = "Album";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "P6K-1s-AQh"; */
+"P6K-1s-AQh.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Quit FireFury DRM Removal"; ObjectID = "QGB-B7-95E"; */
+"QGB-B7-95E.title" = "Uscire da FireFury DRM Removal";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "Rs1-jV-SSR"; */
+"Rs1-jV-SSR.title" = "Servizi";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "Rzf-v6-Lrc"; */
+"Rzf-v6-Lrc.title" = "Menu principale";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "aDL-MI-RqC"; */
+"aDL-MI-RqC.title" = "modificare";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "auq-nv-hZw"; */
+"auq-nv-hZw.title" = "Elimina";
+
+/* Class = "NSTextFieldCell"; title = "FireFury iTunes DRM Converter"; ObjectID = "bF2-M6-xyW"; */
+"bF2-M6-xyW.title" = "FireFury iTunes DRM Converter";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "bvG-x4-Bab"; */
+"bvG-x4-Bab.title" = "Incolla";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "cs9-lh-5w5"; */
+"cs9-lh-5w5.title" = "Tagliare";
+
+/* Class = "NSMenuItem"; title = "Hide FireFury DRM Removal"; ObjectID = "dc4-Ur-phg"; */
+"dc4-Ur-phg.title" = "Nascondi FireFury DRM Removal";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "eEB-bc-gue"; */
+"eEB-bc-gue.title" = "Help";
+
+/* Class = "NSButtonCell"; title = "Unregistered"; ObjectID = "gpx-Wk-H6Y"; */
+"gpx-Wk-H6Y.title" = "Non registrata";
+
+/* Class = "NSMenuItem"; title = "About FireFury DRM Removal"; ObjectID = "hTn-wr-8A6"; */
+"hTn-wr-8A6.title" = "Circa FireFury DRM Removal";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "iOo-d3-QyS"; */
+"iOo-d3-QyS.title" = "Testo di una cella";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "l8u-MF-8Es"; */
+"l8u-MF-8Es.title" = "Nascondere gli altri";
+
+/* Class = "NSTextFieldCell"; title = "%d files, duration 00:00:00"; ObjectID = "lmg-a8-bAn"; */
+"lmg-a8-bAn.title" = "%d file, durata 00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "n4f-1U-fOB"; */
+"n4f-1U-fOB.title" = "Testo di una cella";
+
+/* Class = "NSTableColumn"; headerCell.title = "Duration"; ObjectID = "nHU-iR-5ZO"; */
+"nHU-iR-5ZO.headerCell.title" = "Durata";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "obb-lR-8gN"; */
+"obb-lR-8gN.title" = "modificare";
+
+/* Class = "NSMenuItem"; title = "FireFury DRM Removal Help"; ObjectID = "qZh-ru-h5G"; */
+"qZh-ru-h5G.title" = "FireFury DRM Removal Guida";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "rJi-r4-QPS"; */
+"rJi-r4-QPS.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "rnD-dN-XJs"; */
+"rnD-dN-XJs.title" = "copia";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "tRS-dA-aeg"; */
+"tRS-dA-aeg.title" = "Preferenze…";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "tqO-gL-SoZ"; */
+"tqO-gL-SoZ.title" = "Incolla e abbina lo stile";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "uFd-5J-Ivw"; */
+"uFd-5J-Ivw.title" = "Guida";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "uvd-VE-IoW"; */
+"uvd-VE-IoW.title" = "Finestra";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "vIK-Jk-PxZ"; */
+"vIK-Jk-PxZ.title" = "Testo di una cella";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "w2N-XE-31N"; */
+"w2N-XE-31N.title" = "File";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "wCj-vm-GoB"; */
+"wCj-vm-GoB.title" = "Testo di una cella";
+
+/* Class = "NSMenu"; title = "FireFury DRM Removal"; ObjectID = "yuf-08-Fnp"; */
+"yuf-08-Fnp.title" = "FireFury DRM Removal";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "zVj-gX-tPM"; */
+"zVj-gX-tPM.title" = "Servizi";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "zhV-ey-gXw"; */
+"zhV-ey-gXw.title" = "Testo di una cella";

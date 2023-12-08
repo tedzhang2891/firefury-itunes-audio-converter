@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "1. Preferences -> Advanced -> \"Share iTunes Library XML with other applications\"."; ObjectID = "D5H-2i-xfN"; */
+"D5H-2i-xfN.title" = "1. Indstillinger -> Avanceret -> \"Del iTunes Library XML med andre programmer\".";
+
+/* Class = "NSWindow"; title = "iTunes Settings"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "iTunes-indstillinger";
+
+/* Class = "NSTextFieldCell"; title = "For iTunes 12.2 users, you need to allow iTunes to share iTunes Library xml file:"; ObjectID = "ZLB-bh-suK"; */
+"ZLB-bh-suK.title" = "For brugere af iTunes 12.2 skal du tillade iTunes at dele iTunes Library xml-fil:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "oh3-WM-hlP"; */
+"oh3-WM-hlP.title" = "Okay";
+
+/* Class = "NSTextFieldCell"; title = "2. Try again."; ObjectID = "q7u-6n-uLc"; */
+"q7u-6n-uLc.title" = "2. Prøv igen.";

@@ -1,0 +1,138 @@
+/* Menu Item for Release Help */
+"%@ Help" = "%@ Help";
+
+/* No comment provided by engineer. */
+"%@ is currently in trial mode and only convert 3 minutes for each music file.\n\nTo unlock the limitation, please purchase a license." = "%@ is currently in trial mode and only convert 3 minutes for each music file.\n\nTo unlock the limitation, please purchase a license.";
+
+/* No comment provided by engineer. */
+"%lu files, total duration %@" = "%lu files, total duration %@";
+
+/* Menu Item for Release About */
+"About %@" = "About %@";
+
+/* Buy Online */
+"Buy Online" = "Buy Online";
+
+/* No comment provided by engineer. */
+"Can not find iTunes Music Library location" = "Can not find iTunes Music Library location";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Change the output folder access permission or choose another output folder!" = "Change the output folder access permission or choose another output folder!";
+
+/* Menu Item Label for Check Update */
+"Check for Updates..." = "Check for Updates...";
+
+/* Confirm Delete */
+"Confirm Delete" = "Confirm Delete";
+
+/* No comment provided by engineer. */
+"Disk space is not enough!" = "Disk space is not enough!";
+
+/* Do you want to move the file to the Trash,or only remove it from list? */
+"Do you want to move the file to the Trash,or only remove it from list?" = "Do you want to move the file to the Trash,or only remove it from list?";
+
+/* Menu Item Label for Email */
+"Email Support" = "Email Support";
+
+/* Menu Item Hide Release App */
+"Hide %@" = "Hide %@";
+
+/* Message Text for Registration Failure */
+"Invalid Registration Information!" = "Invalid Registration Information!";
+
+/* No comment provided by engineer. */
+"Locate File" = "Locate File";
+
+/* Move to Trash */
+"Move to Trash" = "Move to Trash";
+
+/* OK */
+"OK" = "OK";
+
+/* Menu Item for Order */
+"Order Now" = "Order Now";
+
+/* Menu Item for Quit Release App */
+"Quit %@" = "Quit %@";
+
+/* Menu Item Label for FAQ */
+"Read FAQ" = "Read FAQ";
+
+/* Menu Item Label for Online Help */
+"Read Online Help" = "Read Online Help";
+
+/* Message Text for Registration Successful */
+"Registration Successful!" = "Registration Successful!";
+
+/* Menu Item Label for Registration */
+"Registration..." = "Registration...";
+
+/* Remains */
+"Remains" = "Remains";
+
+/* Remove from list */
+"Remove from list" = "Remove from list";
+
+/* Select */
+"Select" = "Select";
+
+/* Information Text for Registration Failure */
+"Simple copy and paste your Registration Name and Code exactly as it appears in the confirmation email." = "Simple copy and paste your Registration Name and Code exactly as it appears in the confirmation email.";
+
+/* Information Text for Registration Successful */
+"Thank you for purchase, if you have any problem, please contact us via Email." = "Thank you for purchase, if you have any problem, please contact us via Email.";
+
+/* No comment provided by engineer. */
+"The output folder is read-only!" = "The output folder is read-only!";
+
+/* No comment provided by engineer. */
+"There is not enough disk space in your output volume,please check it out and try again!" = "There is not enough disk space in your output volume,please check it out and try again!";
+
+/* Trial version limits */
+"Trial version limits" = "Trial version limits";
+
+/* Menu Item for WebSite */
+"Visit WebSite" = "Visit WebSite";
+
+/* No comment provided by engineer. */
+"We need iTunes music library location for read information from iTunes, you can change this location in iTunes Preferences." = "We need iTunes music library location for read information from iTunes, you can change this location in iTunes Preferences.";
+
+/* Miss Spotify Applicaiton */
+"Miss Spotify Applicaiton" = "Miss Spotify Applicaiton";
+
+/* Close */
+"Close" = "Close";
+
+/* No comment provided by engineer. */
+"can not find spotify application, please install spotify and retry" = "can not find spotify application, please install spotify and retry";
+
+/* Conversion Failure */
+"Conversion Failure" = "Conversion Failure";
+
+/* Retry */
+"Retry" = "Retry";
+
+/* No comment provided by engineer. */
+"%d tracks failed to convert , please retry it later." = "%d tracks failed to convert , please retry it later.";
+
+/* Change Audio Output Device */
+"Change Audio Output Device" = "Change Audio Output Device";
+
+/* No comment provided by engineer. */
+"To continue the converting, please allow the converter to change your Sound Output to Build-in device.\n\nThe original settings are automatically restored after the conversion is complete." = "To continue the converting, please allow the converter to change your Sound Output to Build-in device.\n\nThe original settings are automatically restored after the conversion is complete.";
+
+/* Don't show this prompt again */
+"Don't show this prompt again" = "Don't show this prompt again";
+
+/* System Integrity Protection is active */
+"System Integrity Protection is active" = "System Integrity Protection is active";
+
+/* Read how to turn SIP off */
+"Read how to turn SIP off" = "Read how to turn SIP off";
+
+/* No comment provided by engineer. */
+"OS X 10.11 (El Capitan) introduced new security measures.\n%@ cannot be launched with System Integrity Protection turned on.\n\nThere is a workaround. Read our website for more information." = "OS X 10.11 (El Capitan) introduced new security measures.\n%@ cannot be launched with System Integrity Protection turned on.\n\nThere is a workaround. Read our website for more information.";
+

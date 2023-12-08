@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1095CF0E2010D89800D0EEAE /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1095CF0D2010D89300D0EEAE /* Add.png */; settings = {ASSET_TAGS = (res, ); }; };
+		1095CF122010DC4600D0EEAE /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = 1095CF112010DC3900D0EEAE /* convert.png */; settings = {ASSET_TAGS = (res, ); }; };
+		10CCC83220257F2A00AD42C8 /* DecryptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCC83120257F2A00AD42C8 /* DecryptCore.framework */; };
+		10CCC83320257F2A00AD42C8 /* DecryptCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10CCC83120257F2A00AD42C8 /* DecryptCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		10CCF2301FE4F84C003AD44F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CCF22F1FE4F84C003AD44F /* AppDelegate.m */; };
+		10CCF2331FE4F84C003AD44F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CCF2321FE4F84C003AD44F /* ViewController.m */; };
+		10CCF2351FE4F84C003AD44F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CCF2341FE4F84C003AD44F /* Assets.xcassets */; };
+		10CCF2381FE4F84C003AD44F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CCF2361FE4F84C003AD44F /* Main.storyboard */; };
+		10CCF23B1FE4F84C003AD44F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CCF23A1FE4F84C003AD44F /* main.m */; };
+		10CCF2461FE4F84C003AD44F /* AudioDRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CCF2451FE4F84C003AD44F /* AudioDRMTests.m */; };
+		10CCF2511FE4F84C003AD44F /* AudioDRMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CCF2501FE4F84C003AD44F /* AudioDRMUITests.m */; };
+		10CCF2651FE4F910003AD44F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8685ED1F138E5700BF7953 /* AppKit.framework */; };
+		10CCF2691FE4F99B003AD44F /* ITunesInjector.osax in Resources */ = {isa = PBXBuildFile; fileRef = 10ED570F1FB735B300548070 /* ITunesInjector.osax */; settings = {ASSET_TAGS = (res, ); }; };
+		10CCF26A1FE4F99D003AD44F /* ITunesPatch.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 10ED570E1FB735B300548070 /* ITunesPatch.dylib */; settings = {ASSET_TAGS = (res, ); }; };
+		10CCF26B1FE4F9A2003AD44F /* ITunesConverterBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 10CCF2671FE4F982003AD44F /* ITunesConverterBundle.bundle */; settings = {ASSET_TAGS = (res, ); }; };
+		10CCF26D1FE53B33003AD44F /* ITunesConvertHelper.app in Resources */ = {isa = PBXBuildFile; fileRef = 10CCF26C1FE53B2F003AD44F /* ITunesConvertHelper.app */; settings = {ASSET_TAGS = (res, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CCF2421FE4F84C003AD44F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F49FB4F1F04A3D6008BE799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CCF22B1FE4F84C003AD44F;
+			remoteInfo = AudioDRM;
+		};
+		10CCF24D1FE4F84C003AD44F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F49FB4F1F04A3D6008BE799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CCF22B1FE4F84C003AD44F;
+			remoteInfo = AudioDRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10894E072024703A00F4ADA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				10CCC83320257F2A00AD42C8 /* DecryptCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1095CF0D2010D89300D0EEAE /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Add.png; path = res/Add.png; sourceTree = "<group>"; };
+		1095CF112010DC3900D0EEAE /* convert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = convert.png; path = res/convert.png; sourceTree = "<group>"; };
+		10CCC83120257F2A00AD42C8 /* DecryptCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DecryptCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CCF21E1FE4EE41003AD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CCF2221FE4EE86003AD44F /* TestInjectHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestInjectHelper.m; sourceTree = "<group>"; };
+		10CCF22C1FE4F84C003AD44F /* AudioDRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CCF22E1FE4F84C003AD44F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10CCF22F1FE4F84C003AD44F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10CCF2311FE4F84C003AD44F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10CCF2321FE4F84C003AD44F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10CCF2341FE4F84C003AD44F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10CCF2371FE4F84C003AD44F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10CCF2391FE4F84C003AD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CCF23A1FE4F84C003AD44F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10CCF23C1FE4F84C003AD44F /* AudioDRM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AudioDRM.entitlements; sourceTree = "<group>"; };
+		10CCF2411FE4F84C003AD44F /* AudioDRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioDRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CCF2451FE4F84C003AD44F /* AudioDRMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioDRMTests.m; sourceTree = "<group>"; };
+		10CCF2471FE4F84C003AD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CCF24C1FE4F84C003AD44F /* AudioDRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioDRMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CCF2501FE4F84C003AD44F /* AudioDRMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioDRMUITests.m; sourceTree = "<group>"; };
+		10CCF2521FE4F84C003AD44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CCF2671FE4F982003AD44F /* ITunesConverterBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ITunesConverterBundle.bundle; path = res/ITunesConverterBundle.bundle; sourceTree = "<group>"; };
+		10CCF26C1FE53B2F003AD44F /* ITunesConvertHelper.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = ITunesConvertHelper.app; path = res/ITunesConvertHelper.app; sourceTree = "<group>"; };
+		10ED570E1FB735B300548070 /* ITunesPatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = ITunesPatch.dylib; path = res/ITunesPatch.dylib; sourceTree = "<group>"; };
+		10ED570F1FB735B300548070 /* ITunesInjector.osax */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ITunesInjector.osax; path = res/ITunesInjector.osax; sourceTree = "<group>"; };
+		4F8685ED1F138E5700BF7953 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CCF2291FE4F84C003AD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CCF2651FE4F910003AD44F /* AppKit.framework in Frameworks */,
+				10CCC83220257F2A00AD42C8 /* DecryptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF23E1FE4F84C003AD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF2491FE4F84C003AD44F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AEAC091FAEF1C60093B5C7 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1095CF112010DC3900D0EEAE /* convert.png */,
+				1095CF0D2010D89300D0EEAE /* Add.png */,
+				10CCF26C1FE53B2F003AD44F /* ITunesConvertHelper.app */,
+				10CCF2671FE4F982003AD44F /* ITunesConverterBundle.bundle */,
+				10ED570F1FB735B300548070 /* ITunesInjector.osax */,
+				10ED570E1FB735B300548070 /* ITunesPatch.dylib */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		10CCF21B1FE4EE41003AD44F /* TestDRM */ = {
+			isa = PBXGroup;
+			children = (
+				10CCF2221FE4EE86003AD44F /* TestInjectHelper.m */,
+				10CCF21E1FE4EE41003AD44F /* Info.plist */,
+			);
+			path = TestDRM;
+			sourceTree = "<group>";
+		};
+		10CCF22D1FE4F84C003AD44F /* AudioDRM */ = {
+			isa = PBXGroup;
+			children = (
+				10CCF22E1FE4F84C003AD44F /* AppDelegate.h */,
+				10CCF22F1FE4F84C003AD44F /* AppDelegate.m */,
+				10CCF2311FE4F84C003AD44F /* ViewController.h */,
+				10CCF2321FE4F84C003AD44F /* ViewController.m */,
+				10CCF2341FE4F84C003AD44F /* Assets.xcassets */,
+				10CCF2361FE4F84C003AD44F /* Main.storyboard */,
+				10CCF2391FE4F84C003AD44F /* Info.plist */,
+				10CCF23A1FE4F84C003AD44F /* main.m */,
+				10CCF23C1FE4F84C003AD44F /* AudioDRM.entitlements */,
+			);
+			path = AudioDRM;
+			sourceTree = "<group>";
+		};
+		10CCF2441FE4F84C003AD44F /* AudioDRMTests */ = {
+			isa = PBXGroup;
+			children = (
+				10CCF2451FE4F84C003AD44F /* AudioDRMTests.m */,
+				10CCF2471FE4F84C003AD44F /* Info.plist */,
+			);
+			path = AudioDRMTests;
+			sourceTree = "<group>";
+		};
+		10CCF24F1FE4F84C003AD44F /* AudioDRMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10CCF2501FE4F84C003AD44F /* AudioDRMUITests.m */,
+				10CCF2521FE4F84C003AD44F /* Info.plist */,
+			);
+			path = AudioDRMUITests;
+			sourceTree = "<group>";
+		};
+		4F49FB4E1F04A3D6008BE799 = {
+			isa = PBXGroup;
+			children = (
+				10CCC83120257F2A00AD42C8 /* DecryptCore.framework */,
+				10CCF21B1FE4EE41003AD44F /* TestDRM */,
+				10CCF22D1FE4F84C003AD44F /* AudioDRM */,
+				10CCF2441FE4F84C003AD44F /* AudioDRMTests */,
+				10CCF24F1FE4F84C003AD44F /* AudioDRMUITests */,
+				4F8685EC1F138E5700BF7953 /* Frameworks */,
+				4F49FB581F04A3D7008BE799 /* Products */,
+				10AEAC091FAEF1C60093B5C7 /* res */,
+			);
+			sourceTree = "<group>";
+		};
+		4F49FB581F04A3D7008BE799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CCF22C1FE4F84C003AD44F /* AudioDRM.app */,
+				10CCF2411FE4F84C003AD44F /* AudioDRMTests.xctest */,
+				10CCF24C1FE4F84C003AD44F /* AudioDRMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8685EC1F138E5700BF7953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F8685ED1F138E5700BF7953 /* AppKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10CCF22B1FE4F84C003AD44F /* AudioDRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CCF2531FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRM" */;
+			buildPhases = (
+				10CCF2281FE4F84C003AD44F /* Sources */,
+				10CCF2291FE4F84C003AD44F /* Frameworks */,
+				10CCF22A1FE4F84C003AD44F /* Resources */,
+				10894E072024703A00F4ADA7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioDRM;
+			productName = AudioDRM;
+			productReference = 10CCF22C1FE4F84C003AD44F /* AudioDRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10CCF2401FE4F84C003AD44F /* AudioDRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CCF2561FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRMTests" */;
+			buildPhases = (
+				10CCF23D1FE4F84C003AD44F /* Sources */,
+				10CCF23E1FE4F84C003AD44F /* Frameworks */,
+				10CCF23F1FE4F84C003AD44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CCF2431FE4F84C003AD44F /* PBXTargetDependency */,
+			);
+			name = AudioDRMTests;
+			productName = AudioDRMTests;
+			productReference = 10CCF2411FE4F84C003AD44F /* AudioDRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10CCF24B1FE4F84C003AD44F /* AudioDRMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CCF2591FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRMUITests" */;
+			buildPhases = (
+				10CCF2481FE4F84C003AD44F /* Sources */,
+				10CCF2491FE4F84C003AD44F /* Frameworks */,
+				10CCF24A1FE4F84C003AD44F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CCF24E1FE4F84C003AD44F /* PBXTargetDependency */,
+			);
+			name = AudioDRMUITests;
+			productName = AudioDRMUITests;
+			productReference = 10CCF24C1FE4F84C003AD44F /* AudioDRMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F49FB4F1F04A3D6008BE799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					res,
+				);
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TedZhang;
+				TargetAttributes = {
+					10CCF22B1FE4F84C003AD44F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					10CCF2401FE4F84C003AD44F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10CCF22B1FE4F84C003AD44F;
+					};
+					10CCF24B1FE4F84C003AD44F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10CCF22B1FE4F84C003AD44F;
+					};
+				};
+			};
+			buildConfigurationList = 4F49FB521F04A3D6008BE799 /* Build configuration list for PBXProject "DRM Removal For Audio" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F49FB4E1F04A3D6008BE799;
+			productRefGroup = 4F49FB581F04A3D7008BE799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CCF22B1FE4F84C003AD44F /* AudioDRM */,
+				10CCF2401FE4F84C003AD44F /* AudioDRMTests */,
+				10CCF24B1FE4F84C003AD44F /* AudioDRMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10CCF22A1FE4F84C003AD44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1095CF122010DC4600D0EEAE /* convert.png in Resources */,
+				1095CF0E2010D89800D0EEAE /* Add.png in Resources */,
+				10CCF26D1FE53B33003AD44F /* ITunesConvertHelper.app in Resources */,
+				10CCF2691FE4F99B003AD44F /* ITunesInjector.osax in Resources */,
+				10CCF2351FE4F84C003AD44F /* Assets.xcassets in Resources */,
+				10CCF2381FE4F84C003AD44F /* Main.storyboard in Resources */,
+				10CCF26A1FE4F99D003AD44F /* ITunesPatch.dylib in Resources */,
+				10CCF26B1FE4F9A2003AD44F /* ITunesConverterBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF23F1FE4F84C003AD44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF24A1FE4F84C003AD44F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CCF2281FE4F84C003AD44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CCF2331FE4F84C003AD44F /* ViewController.m in Sources */,
+				10CCF23B1FE4F84C003AD44F /* main.m in Sources */,
+				10CCF2301FE4F84C003AD44F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF23D1FE4F84C003AD44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CCF2461FE4F84C003AD44F /* AudioDRMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CCF2481FE4F84C003AD44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CCF2511FE4F84C003AD44F /* AudioDRMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CCF2431FE4F84C003AD44F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CCF22B1FE4F84C003AD44F /* AudioDRM */;
+			targetProxy = 10CCF2421FE4F84C003AD44F /* PBXContainerItemProxy */;
+		};
+		10CCF24E1FE4F84C003AD44F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CCF22B1FE4F84C003AD44F /* AudioDRM */;
+			targetProxy = 10CCF24D1FE4F84C003AD44F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10CCF2361FE4F84C003AD44F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10CCF2371FE4F84C003AD44F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10CCF2541FE4F84C003AD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aegisware.AudioDRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10CCF2551FE4F84C003AD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aegisware.AudioDRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10CCF2571FE4F84C003AD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goland.AudioDRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioDRM.app/Contents/MacOS/AudioDRM";
+			};
+			name = Debug;
+		};
+		10CCF2581FE4F84C003AD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goland.AudioDRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioDRM.app/Contents/MacOS/AudioDRM";
+			};
+			name = Release;
+		};
+		10CCF25A1FE4F84C003AD44F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goland.AudioDRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioDRM;
+			};
+			name = Debug;
+		};
+		10CCF25B1FE4F84C003AD44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L34HL92GPC;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AudioDRMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goland.AudioDRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AudioDRM;
+			};
+			name = Release;
+		};
+		4F49FB5C1F04A3D7008BE799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F49FB5D1F04A3D7008BE799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CCF2531FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CCF2541FE4F84C003AD44F /* Debug */,
+				10CCF2551FE4F84C003AD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CCF2561FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CCF2571FE4F84C003AD44F /* Debug */,
+				10CCF2581FE4F84C003AD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CCF2591FE4F84C003AD44F /* Build configuration list for PBXNativeTarget "AudioDRMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CCF25A1FE4F84C003AD44F /* Debug */,
+				10CCF25B1FE4F84C003AD44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F49FB521F04A3D6008BE799 /* Build configuration list for PBXProject "DRM Removal For Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F49FB5C1F04A3D7008BE799 /* Debug */,
+				4F49FB5D1F04A3D7008BE799 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F49FB4F1F04A3D6008BE799 /* Project object */;
+}

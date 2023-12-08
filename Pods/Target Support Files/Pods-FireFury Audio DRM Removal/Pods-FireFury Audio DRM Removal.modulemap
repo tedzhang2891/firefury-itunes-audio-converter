@@ -1,0 +1,6 @@
+framework module Pods_FireFury_Audio_DRM_Removal {
+  umbrella header "Pods-FireFury Audio DRM Removal-umbrella.h"
+
+  export *
+  module * { export * }
+}

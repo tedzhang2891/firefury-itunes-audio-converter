@@ -1,0 +1,143 @@
+/* Menu Item for Release Help */
+"%@ Help" = "%@ 帮助";
+
+/* No comment provided by engineer. */
+"%@ is currently in trial mode and only convert 3 minutes for each music file.\n\nTo unlock the limitation, please purchase a license." = "%@ 当前在试用模式中，每首音乐只能转换3 分鐘.\n\n请购买完整版应用程序。";
+
+/* No comment provided by engineer. */
+"%lu files, total duration %@" = "%lu 文件, 总时长 %@";
+
+/* Menu Item for Release About */
+"About %@" = "关于 %@";
+
+/* Buy Online */
+"Buy Online" = "在线购买";
+
+/* No comment provided by engineer. */
+"Can not find iTunes Music Library location" = "找不到 iTunes 音乐数据库位置";
+
+/* Cancel */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Change the output folder access permission or choose another output folder!" = "更改输出文件目录的存取权限，或者选择另一个输出文件目录!";
+
+/* Menu Item Label for Check Update */
+"Check for Updates..." = "检查更新...";
+
+/* Confirm Delete */
+"Confirm Delete" = "确认删除";
+
+/* No comment provided by engineer. */
+"Disk space is not enough!" = "磁盘空间不足!";
+
+/* Do you want to move the file to the Trash,or only remove it from list? */
+"Do you want to move the file to the Trash,or only remove it from list?" = "您想要将文件移动到废纸篓，或只从列表中删除？";
+
+/* Menu Item Label for Email */
+"Email Support" = "电子邮件支持";
+
+/* Menu Item Hide Release App */
+"Hide %@" = "隐藏 %@";
+
+/* Message Text for Registration Failure */
+"Invalid Registration Information!" = "注册信息不正确!";
+
+/* No comment provided by engineer. */
+"Locate File" = "查找文件";
+
+/* Move to Trash */
+"Move to Trash" = "移到废纸篓";
+
+/* OK */
+"OK" = "确定";
+
+/* Menu Item for Order */
+"Order Now" = "立即购买";
+
+/* Menu Item for Quit Release App */
+"Quit %@" = "退出 %@";
+
+/* Menu Item Label for FAQ */
+"Read FAQ" = "常见问题答案";
+
+/* Menu Item Label for Online Help */
+"Read Online Help" = "阅读在线帮助";
+
+/* Message Text for Registration Successful */
+"Registration Successful!" = "注册成功!";
+
+/* Menu Item Label for Registration */
+"Registration..." = "注册...";
+
+/* Remains */
+"Remains" = "剩余";
+
+/* Remove from list */
+"Remove from list" = "从列表中删除";
+
+/* Select */
+"Select" = "选择";
+
+/* Information Text for Registration Failure */
+"Simple copy and paste your Registration Name and Code exactly as it appears in the confirmation email." = "复制粘贴您的注册名称和代码，确认电子邮件中显示的完全一致。";
+
+/* Information Text for Registration Successful */
+"Thank you for purchase, if you have any problem, please contact us via Email." = "谢谢购买，如果您有任何问题，请使用电子邮件与我们联系。";
+
+/* No comment provided by engineer. */
+"The output folder is read-only!" = "输出目录是只读的!";
+
+/* No comment provided by engineer. */
+"There is not enough disk space in your output volume,please check it out and try again!" = "没有足够的磁盘空间，请检查并再试一次!";
+
+/* Trial version limits */
+"Trial version limits" = "试用版限制";
+
+/* Menu Item for WebSite */
+"Visit WebSite" = "访问主页";
+
+/* No comment provided by engineer. */
+"We need iTunes music library location for read information from iTunes, you can change this location in iTunes Preferences." = "我们需要 iTunes 音乐数据库位置读取 iTunes 信息，您可以更改此位置在 iTunes 默认设置。";
+
+/* Can not get Tracks */
+"Can not get Tracks" = "无法获取曲目";
+
+/* No comment provided by engineer. */
+"can not parse content from spotify, please check your network connection." = "无法读取来自Spotify的內容，请检查您的网络连接。";
+
+/* Miss Spotify Applicaiton */
+"Miss Spotify Applicaiton" = "没有检测到Spotify";
+
+/* Close */
+"Close" = "关闭";
+
+/* No comment provided by engineer. */
+"can not find spotify application, please install spotify and retry" = "无法获取Spotify的应用程序,请重新安装Spotify,然后重试";
+
+/* Conversion Failure */
+"Conversion Failure" = "转换失败";
+
+/* Retry */
+"Retry" = "重试";
+
+/* No comment provided by engineer. */
+"%d tracks failed to convert , please retry it later." = "%d 音轨转换失败，请稍后再试.";
+
+/* Change Audio Output Device */
+"Change Audio Output Device" = "更改音频输出设备";
+
+/* No comment provided by engineer. */
+"To continue the converting, please allow the converter to change your Sound Output to Build-in device.\n\nThe original settings are automatically restored after the conversion is complete." = "要继续转换，请允许转换器将您的声音输出更改为内置设备。\n\n转换完成后，原始设置将自动恢复。";
+
+/* Don't show this prompt again */
+"Don't show this prompt again" = "不再显示此提示";
+
+/* System Integrity Protection is active */
+"System Integrity Protection is active" = "系统完整性保护被激活";
+
+/* Read how to turn SIP off */
+"Read how to turn SIP off" = "阅读如何关闭系统完整性保护";
+
+/* No comment provided by engineer. */
+"OS X 10.11 (El Capitan) introduced new security measures.\n%@ cannot be launched with System Integrity Protection turned on.\n\nThere is a workaround. Read our website for more information." = "OS X 10.11 (El Capitan) 引入新的安全特性.\n%@ 无法运行在SIP打开状态.\n\n解决方法. 请阅读我们的网站获取更多信息.";

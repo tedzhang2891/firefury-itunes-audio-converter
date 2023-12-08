@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "modified date"; ObjectID = "MRU-kD-oGx"; */
+"MRU-kD-oGx.title" = "ændret data";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "VcK-zo-BaJ"; */
+"VcK-zo-BaJ.title" = "Størrelse:";
+
+/* Class = "NSTextFieldCell"; title = "Date:"; ObjectID = "Zx4-2d-8iT"; */
+"Zx4-2d-8iT.title" = "Dato:";
+
+/* Class = "NSTextFieldCell"; title = "name"; ObjectID = "sd2-IS-31k"; */
+"sd2-IS-31k.title" = "navn";
+
+/* Class = "NSTextFieldCell"; title = "size"; ObjectID = "uoZ-d2-WBe"; */
+"uoZ-d2-WBe.title" = "størrelse";
